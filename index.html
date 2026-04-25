@@ -1,19 +1,112 @@
-سوق الدراجات body { margin: 0; font-family: Arial; background: #0f0f0f; color: white; } header { background: linear-gradient(90deg, #ff7b00, #ff3c00); padding: 15px; text-align: center; font-size: 22px; font-weight: bold; } .search { padding: 10px; } .search input { width: 100%; padding: 12px; border-radius: 10px; border: none; } .container { padding: 10px; } .card { background: #1a1a1a; border-radius: 15px; margin-bottom: 15px; overflow: hidden; } .card img { width: 100%; height: 180px; object-fit: cover; } .info { padding: 10px; } .price { color: #ff9900; font-size: 18px; } button { margin-top: 10px; width: 100%; padding: 10px; border: none; background: #25d366; color: white; border-radius: 10px; } 🔥 سوق الدراجات 
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سوق الدراجات</title>
 
-￼ 
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f0f0f;
+    color: white;
+}
 
-دراجة هوندا 2022
+header {
+    background: linear-gradient(90deg, #ff7b00, #ff3c00);
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
 
-$1200
+.search {
+    padding: 10px;
+}
 
-تواصل مع التاجر 
+.search input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+}
 
-￼ 
+.container {
+    padding: 10px;
+}
 
-دراجة رياضية
+.card {
+    background: #1a1a1a;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
 
-$1800
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
 
-تواصل مع التاجر 
+.info {
+    padding: 10px;
+}
 
-function contact() { window.open("https://wa.me/967XXXXXXXXX", "_blank"); } 
+.price {
+    color: #ff9900;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #25d366;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>🔥 سوق الدراجات</header>
+
+<div class="search">
+<input type="text" placeholder="ابحث عن دراجة...">
+</div>
+
+<div class="container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1558981403-c5f9891c1f8f">
+<div class="info">
+<h3>دراجة هوندا 2022</h3>
+<div class="price">$1200</div>
+<button onclick="contact()">تواصل مع التاجر</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518655048521-f130df041f66">
+<div class="info">
+<h3>دراجة رياضية</h3>
+<div class="price">$1800</div>
+<button onclick="contact()">تواصل مع التاجر</button>
+</div>
+</div>
+
+</div>
+
+<script>
+function contact() {
+    window.open("https://wa.me/967712345678", "_blank");
+}
+</script>
+
+</body>
+</html>
